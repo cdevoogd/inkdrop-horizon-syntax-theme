@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "name": "default-dark-syntax",
-  "description": "Default dark syntax theme",
+  "name": "horizon-dark-syntax",
+  "description": "Syntax theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
