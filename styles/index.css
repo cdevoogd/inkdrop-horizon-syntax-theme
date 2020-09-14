@@ -20,16 +20,16 @@
   background-color: #2E303E;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #E95379;
+  background-color: #282B37;
 }
 .editor .CodeMirror-cursor {
   border-left: 1px solid #E9436F;
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  background: #6C6F93 !important;
+  background: #474961 !important;
   color: #2E303E !important;
-  border-bottom: 1px solid #E95678 !important;
+  border-bottom: 1px solid #474961 !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
   color: #B877DB;
@@ -44,7 +44,7 @@
 .editor .CodeMirror-foldmarker {
   border-color: #2E303E;
   background-color: #2E303E;
-  color: #6C6F93;
+  color: #474961;
 }
 .editor .CodeMirror .CodeMirror-linewidget img.inline-widget {
   background: rgba(0, 0, 0, 0.1);
@@ -146,5 +146,5 @@
 }
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
-  background-color: rgba(108, 111, 147, 0.1) !important;
+  background-color: rgba(71, 73, 97, 0.1) !important;
 }
