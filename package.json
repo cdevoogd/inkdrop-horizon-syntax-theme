@@ -3,6 +3,8 @@
   "name": "horizon-dark-syntax",
   "description": "Syntax theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
   "theme": "syntax",
+  "author": "cdevoogd",
+  "repository": "https://github.com/cdevoogd/inkdrop-horizon-syntax-theme",
   "scripts": {
     "build": "lessc styles/less/default.less ./styles/index.css"
   },
