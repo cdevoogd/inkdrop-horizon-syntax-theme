@@ -1,16 +1,51 @@
-@base00: #1C1E26; // Background Color
-@base01: #D5D8DA; // Unstyled text
-@base02: #474961; // Matching tag/bracket highlighting
-@base03: #B877DB; // Meta (code block)
-@base04: #D5D8DA; // Line Numbers
-@base05: #E9436F; // Cursor
-@base06: #2E303E; // Current line highlight
-@base07: #282B37; // Highlighted/selected text
-@base08: #474961; // Underline/border of matching tag/bracket
-@base09: #E95678; // Varaible (code block)
-@base0A: #B877DB; // Bold Text
-@base0B: #FAC29A; // Links
-@base0C: #25B2BC; // Code declarations
-@base0D: #25B2BC; // Italic Text
-@base0E: #FAB795; // List symbols, nested list items, and blockquotes
-@base0F: #F09383; // Link Text
+@horizonBackground: #1C1E26;
+@horizonAccent: #2E303E;
+@horizonText: #D5D8DA;
+@horizonText2: #BBBBBB;
+@horizonLavender: #B877DB;
+@horizonCranberry: #E95678; 
+@horizonTacao: #FAC29A;
+@horizonTurquoise: #25B2BC;
+@horizonRosebud: #FAB795;
+@horizonApricot: #F09383;
+@horizonPositive: #09F7A0;
+@horizonNegative: #F43E5C;
+
+@cmBackground: @horizonBackground;
+@cmUnstyledText: @horizonText;
+@cmLineNumber: @horizonText2;
+@cmSelectedText: @horizonAccent;
+@cmCursor: @horizonCranberry;
+@cmMatchingBracketBackground: fade(#6C6F93, 50%);
+@cmMatchingBracketColor: fade(#D5D8DA, 50%);
+@cmMatchingBracketUnderline: fade(#6C6F93, 0%);
+@cmArrows: @horizonText2;
+@cmFoldMarkerColor: @horizonAccent;
+@cmFoldMarkerText: fade(@horizonText, 65%);
+@cmSearchResultBackground: fade(@horizonCranberry, 35%);
+
+@cmAtom: @horizonApricot;
+@cmAttribute: @horizonApricot;
+@cmBracket: #f99157;
+@cmBuiltin: @horizonText;
+@cmComment: fade(@horizonText2, 30%);
+@cmDef: @horizonTurquoise;
+@cmEm: @horizonTurquoise;
+@cmError: @horizonNegative;
+@cmHeader: @horizonCranberry;
+@cmHR: #999;
+@cmKeyword: @horizonLavender;
+@cmLink: @horizonApricot;
+@cmMeta: @horizonTurquoise;
+@cmNumber: @horizonApricot;
+@cmOperator: @horizonText2;
+@cmProperty: @horizonText;
+@cmQualifier: @horizonRosebud;
+@cmQuote: @horizonRosebud;
+@cmString: @horizonTacao;
+@cmString2: @horizonTacao;
+@cmStrong: @horizonLavender;
+@cmTag: @horizonCranberry;
+@cmVariable: @horizonText;
+@cmVariable2: @horizonText;
+@cmVariable3: @horizonCranberry;
