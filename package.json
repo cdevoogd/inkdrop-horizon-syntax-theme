@@ -6,10 +6,10 @@
   "author": "cdevoogd",
   "repository": "https://github.com/cdevoogd/inkdrop-horizon-syntax-theme",
   "scripts": {
-    "build": "lessc styles/less/default.less ./styles/index.css"
+    "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
   },
   "styleSheets": [
-    "index.css"
+    "horizon-dark.css"
   ],
   "engines": {
     "inkdrop": "^5.x"
