@@ -5,7 +5,7 @@
   "repository": "https://github.com/cdevoogd/inkdrop-horizon-syntax-theme",
   "license": "MIT",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "lessc styles/less/horizon-dark.less ./styles/horizon-dark.css"
   },
